@@ -9,5 +9,5 @@ This repository contains code and information related to the manuscript `Jointly
 - rpy2
 - matplotlib
 
-# Installation
+# Installation and Use
 Clone or download the repository and launch `Figures.ipynb` in a Jupyter notebook. 
