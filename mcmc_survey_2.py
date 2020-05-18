@@ -50,9 +50,6 @@ def p_seropositive_r(r,sensitivity,specificity):
     '''
     return r*sensitivity+(1-r)*(1-specificity)
 
-
-import rpy2.robjects as ro
-import rpy2.robjects.numpy2ri
 rpy2.robjects.numpy2ri.activate()
 ro.r("source('singleSERO_uncertainTEST.R')")
 mcmc = ro.globalenv['sample_posterior_r_mcmc_testun']
